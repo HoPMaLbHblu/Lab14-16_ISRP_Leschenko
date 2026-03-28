@@ -177,3 +177,139 @@ button:hover {
     background: orange;
     color: white;
 }
+
+@media (max-width: 1199px) {
+
+    header div,
+    .popular,
+    .catalog,
+    .about,
+    .advantages {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .popular-products {
+        gap: 15px;
+    }
+
+    .catalog-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    header div {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        height: 350px;
+        padding: 20px;
+    }
+
+    .hero-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .popular-products {
+        flex-direction: column;
+    }
+
+    .catalog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advantages-grid {
+        flex-direction: column;
+    }
+
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .achievements {
+        flex-direction: column;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    header div {
+        width: 95%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        background: #333;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero-content h1 {
+        font-size: 20px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-btn {
+        padding: 10px 15px;
+    }
+
+    .product-card img,
+    .catalog-item img {
+        height: 150px;
+    }
+
+    .catalog-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
