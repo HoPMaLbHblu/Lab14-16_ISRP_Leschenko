@@ -3,86 +3,70 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Каталог | TechStore</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-
         <div>
-
             <h2>TechStore</h2>
-
-            <nav>
-                <a href="index.html">Главная</a>
-                <a href="catalog.html">Каталог</a>
-                <a href="about.html">О нас</a>
-            </nav>
-
+            <nav><a href="index.html">Главная</a><a href="catalog.html">Каталог</a><a href="about.html">О нас</a></nav>
         </div>
-
     </header>
-
     <main>
-
-        <h1>Каталог товаров</h1>
-
-        <section>
-
-            <article>
-                <img src="img/products/laptop.jpg" alt="Ноутбук" width="650">
-                <h3>Ноутбук</h3>
-                <p>Цена: 70000 ₽</p>
-                <p>Рейтинг: ★★★★★</p>
-                <button>Купить</button>
-            </article>
-
-            <article>
-                <img src="img/products/phone.jpg" alt="Смартфон">
-                <h3>Смартфон</h3>
-                <p>Цена: 20000 ₽</p>
-                <p>Рейтинг: ★★★★☆</p>
-                <button>Купить</button>
-            </article>
-
-            <article>
-                <img src="img/products/headphones.jpg" alt="Наушники">
-                <h3>Наушники</h3>
-                <p>Цена: 15000 ₽</p>
-                <p>Рейтинг: ★★★★★</p>
-                <button>Купить</button>
-            </article>
-
-            <article>
-                <img src="img/products/mouse.jpg" alt="Мышка">
-                <h3>Мышка</h3>
-                <p>Цена: 3000 ₽</p>
-                <p>Рейтинг: ★★★★☆</p>
-                <button>Купить</button>
-            </article>
-
-            <article>
-                <img src="img/products/keyboard.jpg" alt="Клавиатура">
-                <h3>Клавиатура</h3>
-                <p>Цена: 7000 ₽</p>
-                <p>Рейтинг: ★★★★★</p>
-                <button>Купить</button>
-            </article>
-
-            <article>
-                <img src="img/products/monitor.jpg" alt="Монитор">
-                <h3>Монитор</h3>
-                <p>Цена: 15000 ₽</p>
-                <p>Рейтинг: ★★★★☆</p>
-                <button>Купить</button>
-            </article>
-
+        <section class="catalog">
+            <h1>Каталог товаров</h1>
+            <div class="catalog-grid">
+                <article class="catalog-item"><img src="img/products/laptop.jpg" alt="Ноутбук">
+                    <h3>Ноутбук ASUS ROG</h3>
+                    <div class="rating">★★★★★ (89)</div>
+                    <div class="price">89 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/phone_2.jpg" alt="Смартфон">
+                    <h3>iPhone 17 Pro Max</h3>
+                    <div class="rating">★★★★★ (342)</div>
+                    <div class="price">109 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/headphones.jpg " alt="Наушники">
+                    <h3>Sony WH-1000XM5</h3>
+                    <div class="rating">★★★★★ (125)</div>
+                    <div class="price">24 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/mouse.jpg" alt="Мышка">
+                    <h3>Logitech MX Master 3S</h3>
+                    <div class="rating">★★★★☆ (56)</div>
+                    <div class="price">12 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/keyboard.jpg" alt="Клавиатура">
+                    <h3>Keychron Q1 Pro</h3>
+                    <div class="rating">★★★★★ (78)</div>
+                    <div class="price">17 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/monitor.jpg" alt="Монитор">
+                    <h3>Samsung Odyssey G7</h3>
+                    <div class="rating">★★★★☆ (92)</div>
+                    <div class="price">49 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/jbl.jpg" alt="Колонка">
+                    <h3>JBL Charge 5</h3>
+                    <div class="rating">★★★★★ (210)</div>
+                    <div class="price">14 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/phone.jpg" alt="Смартфон">
+                    <h3>Samsung Galaxy S25 Ultra</h3>
+                    <div class="rating">★★★★☆ (156)</div>
+                    <div class="price">119 990₽</div><button>В корзину</button>
+                </article>
+                <article class="catalog-item"><img src="img/products/labtop_2.jpg" alt="Ноутбук">
+                    <h3>ASUS VivoBook S16 S3607VA-RP080</h3>
+                    <div class="rating">★★★★★ (34)</div>
+                    <div class="price">68 999₽</div><button>В корзину</button>
+                </article>
+            </div>
         </section>
-
     </main>
-
     <footer>
         <p>© 2026 TechStore. Все права защищены.</p>
     </footer>
